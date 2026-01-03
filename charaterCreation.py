@@ -2,7 +2,7 @@
 def charaterCreation():
     import  os , time , Varbailes
     Varbailes.name = input("What is you name going to be? : ")
-    Varbailes.charatertype = input("""What charter type would you like to be
+    Varbailes.race = input("""What charter type would you like to be
     
 1. Orc: Orcs specialize in melee combat they have high Strength and high Dexterity, but are low health    
 2. Elf: Elves specialize in magic. They are low in health and low in Strength and high in intelligence and Dexterity    
@@ -70,14 +70,14 @@ What background do you chose ? :""").strip().title()
 
     ##Races 
     
-    if Varbailes.charatertype == "Orc":
+    if Varbailes.race == "Orc":
         Varbailes.Strength += 3
         Varbailes.Dexterity += 1
         Varbailes.Charisma -= 2
         Varbailes.Constitution += 2
         Varbailes.raceAbility = "Rage"
 
-    elif Varbailes.charatertype == "Elf":
+    elif Varbailes.race == "Elf":
         Varbailes.Wisdom += 2
         Varbailes.Intelligence += 2
         Varbailes.Charisma += 2
@@ -86,7 +86,7 @@ What background do you chose ? :""").strip().title()
         Varbailes.raceAbility = "Overcharged" 
     
 
-    elif Varbailes.charatertype == "Human":
+    elif Varbailes.race == "Human":
         Varbailes.Strength += 1
         Varbailes.Dexterity += 1
         Varbailes.Constitution += 1
@@ -95,26 +95,26 @@ What background do you chose ? :""").strip().title()
         Varbailes.Charisma -= 1
         Varbailes.raceAbility = "Undying Will"  
 
-    elif Varbailes.charatertypee == "Dwarf":
+    elif Varbailes.racee == "Dwarf":
         Varbailes.Strength += 2
         Varbailes.Dexterity += 3
         Varbailes.Constitution += 1
         Varbailes.Charisma -= 2
         Varbailes.raceAbility = "Persice Strike"
     
-    elif Varbailes.charatertype == "Minotaur":
+    elif Varbailes.race == "Minotaur":
         Varbailes.Strength += 2
         Varbailes.Dexterity += 3
         Varbailes.Constitution += 2
         Varbailes.raceAbility = "Toughen skin"
 
-    elif Varbailes.charatertype == "Fiend":
+    elif Varbailes.race == "Fiend":
         Varbailes.Intelligence += 2
         Varbailes.Wisdom += 2
         Varbailes.Charisma += 3
         Varbailes.raceAbility = "Undying Will"
     
-    elif Varbailes.charatertype == "Tabaxi":
+    elif Varbailes.race == "Tabaxi":
         Varbailes.Dexterity += 3
         Varbailes.Charisma += 2
         Varbailes.raceAbility = "Godspeed"
@@ -205,7 +205,7 @@ What background do you chose ? :""").strip().title()
     time.sleep(2)
     os.system("clear")
     print(Varbailes.name,"the almighty")
-    print("Race:", Varbailes.charatertype)
+    print("Race:", Varbailes.race)
     print("Class:", Varbailes.classes)
     print("Background:", Varbailes.background)
     print("Race Ability:", Varbailes.raceAbility)

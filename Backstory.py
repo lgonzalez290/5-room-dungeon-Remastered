@@ -26,6 +26,7 @@ Magic flows through all races, but how it is used—and who controls it—define
         print("""Innovators and conquerors. Humans built machines, firearms, and clockwork automatons (the first Robots). 
 Fearing what they could not control, they hunted the Fiends, branding them heretics and monsters. 
 Human cities sprawl across the plains, connected by roads, gambling halls, and horse routes.""")
+         
     
     elif Varbailes.race == "Dwarf":
         print("""Unchanged and unbroken. Dwarves live as they always have: in colossal underground cities carved over millennia. 
@@ -37,6 +38,8 @@ Their history remains untouched by the Ice Cream Cut.""")
 Elves are bound to ley lines and ancient living trees. 
 Each elf born weakens the forest, so births are rare. 
 They are masters of magic, but secrecy keeps them alive.""")
+        if Varbailes.game_start == True:
+            print("")
     
     elif Varbailes.race == "Mintor":
         print("""Born with an undying bloodlust. 

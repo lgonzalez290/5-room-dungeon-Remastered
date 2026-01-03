@@ -5,7 +5,7 @@ import Varbailes
 
 def characterSheet():
     print(Varbailes.name, "the almighty")
-    print("Race:", Varbailes.charatertype)
+    print("Race:", Varbailes.race)
     print("Class:", Varbailes.classes)
     print("Background:", Varbailes.background)
     print("Race Ability:", Varbailes.raceAbility)
