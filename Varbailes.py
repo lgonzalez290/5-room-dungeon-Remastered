@@ -28,7 +28,7 @@ raceAbility = None
 
 ##Aspects of the charters
 name = None
-charatertype = None 
+race = None 
 background = None 
 classes = None 
 background = None
@@ -57,3 +57,5 @@ game_start = None
 
 ##
 starter_Ohouse = None 
+##
+playing_Shome = None
